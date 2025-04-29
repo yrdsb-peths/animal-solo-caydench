@@ -7,6 +7,9 @@ public class MyWorld extends World {
         Elephant elephant = new Elephant();
         addObject(elephant, 300, 200);
         
+        Label score = new Label(0,100);
+        addObject(score, 40, 50);
+        
         createApple();
     }
     
