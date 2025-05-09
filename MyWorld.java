@@ -15,6 +15,7 @@ public class MyWorld extends World {
         addObject(score, getWidth()/2, 50);
         
         createApple();
+        setBackground("images/background.jpg");
     }
     
     public void gameOver() {

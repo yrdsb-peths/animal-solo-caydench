@@ -19,6 +19,8 @@ public class TitleScreen extends World
 
         addObject(titleLabel, getWidth()/2, 85);
         prepare();
+        
+        setBackground("images/background.jpg");
     }
 
     public void act() {
