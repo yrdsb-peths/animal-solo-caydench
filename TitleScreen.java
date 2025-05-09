@@ -38,7 +38,7 @@ public class TitleScreen extends World
         addObject(elephant,549,87);
         elephant.setLocation(495,86);
         elephant.setLocation(517,83);
-        Label label = new Label("Use <-- and --> to Move", 40);
+        Label label = new Label("Use \u2190 and \u2192 to Move", 40);
         addObject(label,310,202);
         label.setLocation(327,202);
         Label label2 = new Label("Press <space> to Start", 40);
